@@ -71,18 +71,11 @@ img {
 .menu-link {
 padding: 24px 0;
 display: block;
+position: relative;
+color: #404bbf;
 }
 
-.menu-item {
-    position: relative;
-}
-
-.studio-after {
-    position: relative;
-    color: #404bbf;
-}
-
-.studio-after::after {
+.menu-link-after::after {
     position: absolute;
     content: "";
     width: 100%;
@@ -436,6 +429,12 @@ display: block;
     color: #434455;
 }
 
+.footer-flex {
+    display: flex;
+    align-items: baseline;
+    margin-right: 120px;
+}
+
 .footer {
     background-color: #2e2f42;
     padding: 100px 0px;
@@ -462,15 +461,15 @@ display: block;
     max-width: 264px;
 }
 
-.web-logo-footer {
-    display: flex;
-}
 
 .title-footer {
-color: rgba(255, 255, 255, 1);
+color: #FFFFFF;
 font-weight: 500;
 text-align: left;
 margin-bottom: 16px;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 
 .social-media-footer {
