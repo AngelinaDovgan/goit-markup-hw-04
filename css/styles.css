@@ -73,6 +73,7 @@ padding: 24px 0;
 display: block;
 position: relative;
 color: #404bbf;
+
 }
 
 .menu-link-after::after {
@@ -437,6 +438,10 @@ color: #404bbf;
 .footer-flex {
     display: flex;
     align-items: baseline;
+}
+
+.logo-p {
+    margin-right: 120px;
 }
 
 .logo-text {
